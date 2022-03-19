@@ -1,0 +1,17 @@
+{
+  "name": "paiza",
+  "version": "1.0.0",
+  "main": "paiza.js",
+  "scripts": {
+    "start": "node src/paiza.js",
+    "test": "NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" jest",
+    "test:watch": "NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
